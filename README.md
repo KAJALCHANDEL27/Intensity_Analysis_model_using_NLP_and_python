@@ -1,4 +1,6 @@
-Project Overview
+# Intensity Analysis Capstone Project
+
+# Project Overview
 This project involves analyzing emotional intensity in content (textual data) to classify it into categories such as happiness, angriness, and sadness using Natural Language Processing (NLP) and machine learning. The objective of this project is to develop an intelligent system using NLP to predict the intensity in the text reviews. By analyzing various parameters and process data, the system will predict the intensity where its happiness, angriness or sadness. This predictive capability will enable to proactively optimize their processes, and improve overall customer satisfaction.The steps include text preprocessing, feature engineering, model training, evaluation, and hyperparameter tuning.
 
 Dataset Attributes
