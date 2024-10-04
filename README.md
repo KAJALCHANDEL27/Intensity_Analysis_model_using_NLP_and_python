@@ -39,8 +39,16 @@ Model Training & Hyperparameter Tuning
 Model: Logistic Regression was selected as the baseline model for classification.
 Hyperparameter Tuning: GridSearchCV was used to find the best parameters, including regularization strength and solver types.
 Evaluation Metrics: Accuracy, confusion matrix, and classification report were used to evaluate the model’s performance.
-Results
-X_train shape: (1631, 6860), y_train shape: (1631,) X_test shape: (408, 6860), y_test shape: (408,) Best parameters found: {'C': 1, 'penalty': 'l2', 'solver': 'liblinear'} Best cross-validation accuracy: 0.7725258437927993 Mapped predicted labels: ['angriness' 'happiness' 'sadness'] Test Accuracy: 0.8112745098039216 precision recall f1-score support
+
+# Results
+
+X_train shape: (1631, 6860), y_train shape: (1631,)
+X_test shape: (408, 6860), y_test shape: (408,)
+Best parameters found: {'C': 1, 'penalty': 'l2', 'solver': 'liblinear'} 
+Best cross-validation accuracy: 0.7725258437927993
+Mapped predicted labels: ['angriness' 'happiness' 'sadness'] 
+Test Accuracy: 0.8112745098039216
+                precision recall f1-score support
 
        0       0.80      0.89      0.84       125
        1       0.76      0.80      0.78       138
