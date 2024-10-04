@@ -1,0 +1,119 @@
+Here’s a list of the necessary libraries and packages you need to import and install to ensure the code runs smoothly. You may want to install them using pip or conda based on your environment.
+
+Python Libraries and Packages:
+
+pandas – For handling dataframes and CSV files.
+numpy – For numerical computations.
+matplotlib – For plotting and visualizations.
+seaborn – For enhanced data visualizations, such as confusion matrix heatmaps.
+re – For regular expressions (used in text preprocessing).
+nltk – For natural language processing tasks like tokenization, stopword removal, stemming, and lemmatization.
+scikit-learn – For machine learning algorithms and tools like LogisticRegression, GridSearchCV, and LabelEncoder.
+textblob – For sentiment analysis (polarity and subjectivity scores).
+tensorflow – For padding and working with text sequences.
+scipy – For combining sparse matrices.
+pickle – For model serialization.
+warnings – To suppress unwanted warnings in the output.
+
+Libraries and Their Corresponding Pip Install Commands:
+# Install pandas for data manipulation
+pip install pandas
+
+# Install numpy for numerical operations
+pip install numpy
+
+# Install matplotlib for plotting
+pip install matplotlib
+
+# Install seaborn for advanced visualizations
+pip install seaborn
+
+# Install nltk for natural language processing
+pip install nltk
+
+# Install scikit-learn for machine learning algorithms
+pip install scikit-learn
+
+# Install textblob for sentiment analysis
+pip install textblob
+
+# Install tensorflow for padding and deep learning tasks
+pip install tensorflow
+
+# Install scipy for handling sparse matrices and combining features
+pip install scipy
+
+Additional Setup (for NLTK):
+Make sure to download the required corpora for NLTK, such as stopwords and wordnet.
+
+import nltk
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('wordnet')
+nltk.download('averaged_perceptron_tagger')  # For POS tagging
+
+
+Ensure All Required Libraries are Imported:
+# Data manipulation
+import pandas as pd
+import numpy as np
+
+# Visualization
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# NLP tasks
+import nltk
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+from nltk.stem import PorterStemmer, WordNetLemmatizer
+from textblob import TextBlob
+
+# Machine Learning
+from sklearn.preprocessing import LabelEncoder
+from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+from sklearn.model_selection import GridSearchCV
+
+# TensorFlow for padding
+from tensorflow.keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.preprocessing.text import Tokenizer
+
+# Utilities
+import re
+from scipy.sparse import hstack
+import pickle
+import warnings
+warnings.filterwarnings('ignore')
+
+
+Given the list that will cover all the dependencies in this code. Make sure to install and import these packages before running the code!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
